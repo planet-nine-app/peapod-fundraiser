@@ -48,6 +48,7 @@ function renderEvents() {
         return `
             <div class="event-card ${event.featured ? 'featured' : ''}">
                 ${event.featured ? '<div class="featured-badge">★ Featured Event ★</div>' : ''}
+                ${event.imageUrl ? `<img src="${event.imageUrl}" alt="${event.title}" class="event-image">` : ''}
                 <div class="event-date">${formattedDate}</div>
                 <h3 class="event-title">${event.title}</h3>
                 <div class="event-location">${event.location}</div>

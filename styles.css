@@ -218,6 +218,13 @@ section {
     box-shadow: var(--shadow-lg);
 }
 
+.event-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-sm);
+    margin-bottom: var(--spacing-md);
+}
+
 .event-date {
     color: var(--color-secondary);
     font-weight: 600;

@@ -24,6 +24,16 @@
       "prize": "Two Wiggle Room passes for top seller"
     },
     {
+      "id": "clothing-swap",
+      "title": "Clothing Swap - Mini Fundraiser",
+      "date": "2026-01-17",
+      "time": "9:00 AM - 12:00 PM",
+      "location": "Preschool Room",
+      "description": "Newborn to size 6 kids clothes. Pay what you want, suggested donation of $1 per piece. All proceeds directly support The Pea Pod Family Resource Center.",
+      "type": "swap",
+      "imageUrl": "swap.png"
+    },
+    {
       "id": "main-auction",
       "title": "Pea Pod Fundraiser Auction",
       "date": "2026-02-28",
