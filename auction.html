@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auction Items - Pea Pod Fundraising</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Pea Pod Fundraising</h1>
+            <p class="site-tagline">February 28th Auction Preview</p>
+        </div>
+    </header>
+
+    <div class="donation-banner">
+        <div class="container">
+            <h2>Support Pea Pod Today!</h2>
+            <a href="https://givingtuesday.mightycause.com/organization/Pea-Pod-Family-Resource-Center" class="btn btn-primary" target="_blank">Donate Now</a>
+            <p class="donation-note">All donations are tax-deductible!</p>
+        </div>
+    </div>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a> &gt; <span>Auction Items</span>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="auction-header">
+            <h2 class="section-title">February 28th Auction</h2>
+            <div class="event-details">
+                <p class="event-date">February 28, 2026 | 2:00 PM - 5:00 PM</p>
+                <p class="event-location">Taborspace Dining Room</p>
+                <p class="event-description">Our biggest fundraising event of the year! Silent auction, raffle items, and community fun. Save the date and invite your friends and family!</p>
+            </div>
+        </section>
+
+        <section class="category-filters">
+            <button class="filter-btn active" data-category="all">All Items</button>
+            <button class="filter-btn" data-category="workshop">Workshops</button>
+            <button class="filter-btn" data-category="lessons">Lessons</button>
+            <button class="filter-btn" data-category="vacation">Vacations</button>
+            <button class="filter-btn" data-category="party">Parties</button>
+            <button class="filter-btn" data-category="services">Services</button>
+            <button class="filter-btn" data-category="handmade">Handmade</button>
+            <button class="filter-btn" data-category="membership">Memberships</button>
+            <button class="filter-btn" data-category="spiritual">Spiritual</button>
+            <button class="filter-btn" data-category="consulting">Consulting</button>
+        </section>
+
+        <section class="auction-items">
+            <div id="auction-items-container" class="auction-grid"></div>
+        </section>
+
+        <section class="suggestions-section">
+            <h2 class="section-title">More Ideas Welcome!</h2>
+            <p class="section-intro">Our community has suggested these additional fundraising ideas. If you can help with any of these, please reach out!</p>
+            <div id="suggestions-container" class="suggestions-grid"></div>
+        </section>
+
+        <section class="back-nav">
+            <a href="index.html" class="btn btn-secondary">Back to Home</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Pea Pod Family Resource Center</p>
+            <p>Built with love by the Pea Pod community</p>
+        </div>
+    </footer>
+
+    <script src="auction.js"></script>
+</body>
+</html>

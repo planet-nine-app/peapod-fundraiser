@@ -1,0 +1,262 @@
+{
+  "events": [
+    {
+      "id": "dine-out-threshold",
+      "title": "Dine Out Night at Threshold Brewing",
+      "date": "2025-12-18",
+      "time": "4:00 PM - 9:00 PM",
+      "location": "Threshold Brewing",
+      "description": "Join us for a fun evening of food, drinks, and community! Threshold Brewing will donate 10% of all purchases back to Peapod. Bring your friends and family!",
+      "type": "dine-out",
+      "benefit": "10% of purchases go to Peapod",
+      "raffle": "Check the #social channel for raffle details"
+    },
+    {
+      "id": "pie-sale",
+      "title": "Willamette Valley Pie Sale",
+      "date": "2025-12-19",
+      "time": "Pickup TBD",
+      "location": "Pea Pod",
+      "description": "Locally grown and handmade frozen pies and desserts. Order by 12/3, pickup on 12/19. The family with the most pie sales wins two passes to The Wiggle Room!",
+      "type": "product-sale",
+      "orderDeadline": "2025-12-03",
+      "websiteUrl": "https://www.wvpie.com/",
+      "prize": "Two Wiggle Room passes for top seller"
+    },
+    {
+      "id": "main-auction",
+      "title": "Pea Pod Fundraiser Auction",
+      "date": "2026-02-28",
+      "time": "2:00 PM - 5:00 PM",
+      "location": "Taborspace Dining Room",
+      "description": "Our biggest fundraising event of the year! Silent auction, raffle items, and community fun. Similar to the Halloween party with exciting auction items donated by our amazing community. Save the date and invite your friends and family!",
+      "type": "auction",
+      "featured": true
+    }
+  ],
+  "products": [
+    {
+      "id": "stickers",
+      "title": "Peapod Stickers",
+      "price": 3.00,
+      "description": "2x3\" durable vinyl stickers, perfect for water bottles or lunchboxes. Dishwasher safe!",
+      "size": "2x3 inches",
+      "material": "Durable vinyl",
+      "features": ["Dishwasher safe", "Water bottle friendly", "Lunchbox ready"],
+      "contact": "@sarahgretz on Venmo",
+      "imageUrl": "sticker.jpg",
+      "type": "merchandise"
+    },
+    {
+      "id": "tshirts",
+      "title": "Peapod T-Shirts",
+      "price": 15.00,
+      "description": "Show your Peapod pride with these awesome t-shirts!",
+      "imageUrl": "https://peaceloveandredistribution.com/images/1ffbbd52-8f2c-4d82-ac60-c821065fc94f",
+      "contact": "DM Zach (Finn's Dad)",
+      "type": "merchandise"
+    }
+  ],
+  "auctionItems": [
+    {
+      "id": "ice-dye-workshop",
+      "title": "Ice Dyeing Workshop for 6",
+      "donor": "Saki (Cas' and Zinnie's mom)",
+      "value": 690,
+      "description": "Learn the beautiful art of ice dyeing! Workshop for 6 people. Each person will dye a set of 4 napkins. Usually $115 per person.",
+      "category": "workshop"
+    },
+    {
+      "id": "guitar-lessons",
+      "title": "Adult Guitar Lessons (2 Sessions)",
+      "donor": "Saki's brother - Pink Martini touring guitarist",
+      "description": "Two guitar lessons with a world-class musician, formerly Pink Martini's touring guitarist, who has played with the Dallas orchestra. A wonderful, patient teacher for those looking to improve their guitar skills. Includes follow-up session.",
+      "category": "lessons"
+    },
+    {
+      "id": "bend-vacation",
+      "title": "3 Night Stay in Bend, Oregon",
+      "donor": "Elizabeth/Charlie's grandparents",
+      "description": "Enjoy 3 nights in beautiful Bend, Oregon!",
+      "nights": 3,
+      "location": "Bend, Oregon",
+      "category": "vacation"
+    },
+    {
+      "id": "swim-parties",
+      "title": "Private Swim Parties (2 available)",
+      "donor": "Elizabeth (Charlie's Mom)",
+      "description": "Two 2-hour private swim parties for up to 8 guests each. Perfect for a birthday or special celebration!",
+      "duration": "2 hours each",
+      "capacity": "8 guests per party",
+      "quantity": 2,
+      "category": "party"
+    },
+    {
+      "id": "short-term-rental",
+      "title": "Short-Term Rental Stay (2+ nights)",
+      "donor": "Zach (Finn's Dad)",
+      "description": "A couple nights at a property from a short-term rental startup. Details to be finalized.",
+      "nights": "2+",
+      "category": "vacation",
+      "status": "Details coming soon"
+    },
+    {
+      "id": "startup-accelerator",
+      "title": "Idea Accelerator / Startup Crash Course",
+      "donor": "Zach (Finn's Dad)",
+      "description": "Have an idea or desire for something to exist? Get help making it real! Learn how to bring your idea into the world, or get a patient explanation of why it might be impossible (we try to break the laws of physics responsibly).",
+      "category": "consulting"
+    },
+    {
+      "id": "haircuts",
+      "title": "Haircuts, Beard Trims, or Face Shaves",
+      "donor": "Anna (Arie's Mom)",
+      "description": "Professional haircuts (mostly shorter cuts but can do long lengths), beard trims, or face shaves. Multiple services available.",
+      "category": "services",
+      "quantity": "Multiple available"
+    },
+    {
+      "id": "tarot-session",
+      "title": "1 Hour Tarot Session",
+      "donor": "Shanna",
+      "description": "A one-hour tarot reading session. This is Shanna's side/soul business.",
+      "duration": "1 hour",
+      "category": "spiritual"
+    },
+    {
+      "id": "house-cleaning",
+      "title": "2 Hour Standard House Cleaning",
+      "donor": "Joy (Roan's Mum) - Joyful Home Cleaning",
+      "value": 100,
+      "description": "Professional 2-hour standard house cleaning session.",
+      "duration": "2 hours",
+      "category": "services"
+    },
+    {
+      "id": "custom-leather-belt",
+      "title": "Custom Leather Belt",
+      "donor": "Riv via Whitney (Willa's Mom)",
+      "description": "A custom-made leather belt, handcrafted with care.",
+      "category": "handmade"
+    },
+    {
+      "id": "music-lessons-colin",
+      "title": "Music Lessons (Guitar & Piano)",
+      "donor": "Colin (Zenta's parent)",
+      "description": "Guitar and piano lessons from an experienced teacher with 10+ years of teaching experience. More details to come based on auction timeline.",
+      "category": "lessons",
+      "experience": "10+ years teaching",
+      "status": "Details coming soon"
+    },
+    {
+      "id": "arch-cape-beach-house",
+      "title": "Beach House Stay in Arch Cape",
+      "donor": "Saki's neighbor",
+      "description": "A few nights at a beach house in Arch Cape. Flexible schedule as it's not normally rented out. Has donated to other non-profits.",
+      "location": "Arch Cape, Oregon",
+      "cleaningFee": 160,
+      "category": "vacation",
+      "note": "More flexible scheduling, $160 cleaning fee"
+    },
+    {
+      "id": "literacy-lady-birthday",
+      "title": "Literacy Lady Birthday Package",
+      "donor": "Taryn (Finn's Mom)",
+      "description": "Birthday party package from the Literacy Lady with storytelling, sensory fun, and music. As seen at Finn's Hammer & Jacks Birthday Party!",
+      "websiteUrl": "https://www.pdxstorytime.com/birthday-parties",
+      "category": "party"
+    },
+    {
+      "id": "flip-museum-membership",
+      "title": "6 Month FLIP Museum Membership for 2",
+      "donor": "FLIP Museum via Taryn (Finn's Mom)",
+      "description": "6-month membership for 2 people to the FLIP Museum!",
+      "duration": "6 months",
+      "capacity": "2 people",
+      "websiteUrl": "https://www.flipmuseum.org",
+      "category": "membership"
+    },
+    {
+      "id": "mud-kitchen",
+      "title": "Custom Mud Kitchen",
+      "donor": "Lyndsay (Emme's mom), possibly with Saki",
+      "description": "A custom-built mud kitchen for outdoor play! Made with reclaimed wood (needs scrap wood donation).",
+      "category": "handmade",
+      "status": "Needs scrap wood donation"
+    }
+  ],
+  "suggestions": [
+    {
+      "title": "Kids' Art Projects",
+      "description": "Have all the kids make a special art project to auction off individually",
+      "source": "Lyndsay's mom"
+    },
+    {
+      "title": "Handprint Bench or Chair",
+      "description": "Auction off a bench or chair with all of the kids' handprints",
+      "source": "Lyndsay's mom"
+    },
+    {
+      "title": "Self-Care Basket",
+      "description": "Call around to get spa deals to make a self-care basket",
+      "source": "Lyndsay's mom",
+      "volunteer": "Lyndsay happy to call"
+    },
+    {
+      "title": "Sports Tickets",
+      "description": "Portland Timbers tickets",
+      "source": "Lyndsay's mom",
+      "volunteer": "Lyndsay happy to call"
+    },
+    {
+      "title": "Museum Passes",
+      "description": "OMSI passes, Zoo passes",
+      "source": "Lyndsay's mom",
+      "volunteer": "Lyndsay happy to call"
+    },
+    {
+      "title": "Big Ticket Raffle",
+      "description": "Raffle off a big ticket item (e.g., vacation for 2 to Mexico)",
+      "source": "Lyndsay's mom",
+      "note": "Need to confirm audience interest"
+    },
+    {
+      "title": "Small Business Gift Cards",
+      "description": "Ask small businesses for gift card donations, especially those you have a strong relationship with. Nice to have some lower ticket items.",
+      "source": "Kelsey (Zenta's mom)"
+    }
+  ],
+  "donationInfo": {
+    "title": "Direct Donations",
+    "description": "All donations are tax-deductible!",
+    "methods": [
+      {
+        "type": "online",
+        "url": "https://givingtuesday.mightycause.com/organization/Pea-Pod-Family-Resource-Center",
+        "fee": "5% processing fee",
+        "note": "Alternative payment method with lower fees coming soon"
+      },
+      {
+        "type": "check",
+        "recipient": "Pea Pod Family Resource Center",
+        "instructions": "Give checks directly to Max (Avery's dad) or put them in the lock box inside the playroom (behind the door on the left as you step inside)",
+        "taxReceipt": "Available upon request from Sarah or Max"
+      }
+    ],
+    "contact": {
+      "receipts": "Ask Sarah or Max for tax-deductible receipt",
+      "maxAvailability": "Often onsite Tuesdays and Thursdays"
+    }
+  },
+  "committee": {
+    "title": "Auction Committee",
+    "description": "We need volunteers to help organize the February auction! If you're experienced with events like this or want to help by seeking donations, please reach out.",
+    "volunteers": [
+      "Luke Z (Eldin's Parent)",
+      "Saki (Cas' and Zinnie's mom)",
+      "And more!"
+    ],
+    "contactPerson": "Sarah Gretz (Hadley's Mom)"
+  }
+}
