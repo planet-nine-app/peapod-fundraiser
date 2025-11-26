@@ -9,7 +9,8 @@
       "description": "Join us for a fun evening of food, drinks, and community! Threshold Brewing will donate 10% of all purchases back to Peapod. Bring your friends and family!",
       "type": "dine-out",
       "benefit": "10% of purchases go to Peapod",
-      "raffle": "Check the #social channel for raffle details"
+      "raffle": "Check the #social channel for raffle details",
+      "imageUrl": "threshold.png"
     },
     {
       "id": "pie-sale",
@@ -22,6 +23,17 @@
       "orderDeadline": "2025-12-03",
       "websiteUrl": "https://www.wvpie.com/",
       "prize": "Two Wiggle Room passes for top seller"
+    },
+    {
+      "id": "dine-out-chipotle",
+      "title": "Chipotle Fundraiser Night",
+      "date": "2026-01-06",
+      "time": "4:00 PM - 8:00 PM",
+      "location": "Chipotle",
+      "description": "Order online or in-person and support Peapod! Mention Peapod or use the online code to have a portion of your purchase donated to our community.",
+      "type": "dine-out",
+      "benefit": "Portion of purchases go to Peapod",
+      "imageUrl": "chipotle.jpg"
     },
     {
       "id": "clothing-swap",
