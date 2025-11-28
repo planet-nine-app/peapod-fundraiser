@@ -235,8 +235,16 @@ section {
 .event-title {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
     color: var(--color-dark);
+}
+
+.event-subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent-2);
+    margin-bottom: var(--spacing-sm);
+    font-style: italic;
 }
 
 .event-location {

@@ -25,6 +25,16 @@
       "prize": "Two Wiggle Room passes for top seller"
     },
     {
+      "id": "peacock-lane-cocoa",
+      "title": "Peacock Lane Cocoa & Cider Sale",
+      "date": "2025-12-19",
+      "time": "December 19 & 20, 2025",
+      "location": "4214 SE Stark St",
+      "description": "Join us for hot cocoa and cider while enjoying the festive Peacock Lane holiday lights! Stop by for a warm beverage and support Pea Pod.",
+      "type": "fundraiser",
+      "imageUrl": "hot-chocolate.png"
+    },
+    {
       "id": "dine-out-chipotle",
       "title": "Chipotle Fundraiser Night",
       "date": "2026-01-06",
@@ -47,12 +57,14 @@
     },
     {
       "id": "main-auction",
-      "title": "Pea Pod Fundraiser Auction",
+      "title": "Talent Show",
+      "subtitle": "Fundraiser & Auction",
       "date": "2026-02-28",
       "time": "2:00 PM - 5:00 PM",
       "location": "Taborspace Dining Room",
       "description": "Our biggest fundraising event of the year! Silent auction, raffle items, and community fun. Similar to the Halloween party with exciting auction items donated by our amazing community. Save the date and invite your friends and family!",
       "type": "auction",
+      "imageUrl": "talent-show.png",
       "featured": true
     }
   ],

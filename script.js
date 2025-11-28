@@ -51,6 +51,7 @@ function renderEvents() {
                 ${event.imageUrl ? `<img src="${event.imageUrl}" alt="${event.title}" class="event-image">` : ''}
                 <div class="event-date">${formattedDate}</div>
                 <h3 class="event-title">${event.title}</h3>
+                ${event.subtitle ? `<div class="event-subtitle">${event.subtitle}</div>` : ''}
                 <div class="event-location">${event.location}</div>
                 <div class="event-description">${event.description}</div>
                 ${event.time ? `<div class="event-badge">🕐 ${event.time}</div>` : ''}
