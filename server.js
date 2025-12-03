@@ -46,6 +46,10 @@ app.get('/auction', (req, res) => {
   res.sendFile(path.join(__dirname, 'auction.html'));
 });
 
+app.get('/top-secret-goal-monitor', (req, res) => {
+  res.sendFile(path.join(__dirname, 'top-secret-goal-monitor.html'));
+});
+
 // Health check endpoint for monitoring
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
