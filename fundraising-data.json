@@ -56,6 +56,17 @@
       "imageUrl": "swap.png"
     },
     {
+      "id": "pizza-night-atlas",
+      "title": "Pizza Night at Atlas Pizza",
+      "date": "2026-02-03",
+      "time": "4:00 PM - 8:00 PM",
+      "location": "Atlas Pizza - 3570 SE Division St, Portland, OR",
+      "description": "Join us for delicious pizza and support Pea Pod! Atlas Pizza will donate a portion of sales to our community. Bring your family and friends for a tasty evening!",
+      "type": "dine-out",
+      "websiteUrl": "https://www.atlaspizzapdx.com",
+      "benefit": "Portion of purchases go to Peapod"
+    },
+    {
       "id": "main-auction",
       "title": "Talent Show",
       "subtitle": "Fundraiser & Auction",
