@@ -34,7 +34,23 @@ peapod-fundraiser/
 └── CLAUDE.md               # This file
 ```
 
-## Color Palette
+## Design Guidelines
+
+### Typography
+
+**IMPORTANT**: Do NOT use Comic Sans or any playful/casual fonts. The site uses a professional system font stack:
+
+```css
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+```
+
+This ensures:
+- Professional appearance
+- Excellent readability
+- Native platform look and feel
+- No font loading required
+
+### Color Palette
 
 Colors extracted from the Peapod sticker (sticker.jpg):
 
@@ -180,6 +196,26 @@ scp fundraising-data.json root@your-ip:/var/www/peapod-fundraiser/
 
 # No restart needed - changes are immediate!
 ```
+
+### Update Fundraising Thermometer
+
+The home page displays a mini thermometer showing current fundraising progress, which links to the full interactive thermometer page. To update the amount:
+
+1. **`index.html` line 48**: Change the SVG height from `65.5` to the new percentage
+   - Formula: `(currentAmount / 15000) * 300`
+   - Example: For $5,000 → `(5000 / 15000) * 300 = 100`
+
+2. **`index.html` lines 52-54**: Update the displayed amounts and percentage
+   ```html
+   <div class="current-amount">$5,000</div>
+   <div class="goal-amount">Goal: $15,000</div>
+   <div class="percentage">33.3%</div>
+   ```
+
+3. **`top-secret-thermometer.html` line 482**: Update the `CURRENT_TOTAL` constant
+   ```javascript
+   const CURRENT_TOTAL = 5000;
+   ```
 
 ## Contact Information
 

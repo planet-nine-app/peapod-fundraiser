@@ -14,15 +14,53 @@
         </div>
     </header>
 
-    <div class="donation-banner">
+    <div class="donation-and-progress-section">
         <div class="container">
-            <h2>Support Pea Pod Today!</h2>
-            <a href="https://givingtuesday.mightycause.com/organization/Pea-Pod-Family-Resource-Center" class="btn btn-primary" target="_blank">Donate Now</a>
-            <p class="donation-note">All donations are tax-deductible!</p>
+            <div class="donation-progress-grid">
+                <div class="donation-banner-card">
+                    <h2>Support Pea Pod Today!</h2>
+                    <a href="https://givingtuesday.mightycause.com/organization/Pea-Pod-Family-Resource-Center" class="btn btn-primary" target="_blank">Donate Now</a>
+                    <p class="donation-note">All donations are tax-deductible!</p>
+                </div>
+
+                <div class="fundraising-progress-card">
+                    <a href="top-secret-thermometer.html" class="thermometer-link">
+                        <div class="mini-thermometer-container">
+                            <svg viewBox="0 0 90 300" preserveAspectRatio="xMidYMid meet" class="mini-thermometer">
+                                <defs>
+                                    <linearGradient id="miniGradient" x1="0%" y1="100%" x2="0%" y2="0%" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" style="stop-color:#E87646;stop-opacity:1" />
+                                        <stop offset="20%" style="stop-color:#E87646;stop-opacity:1" />
+                                        <stop offset="60%" style="stop-color:#A8C573;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#7BC4BC;stop-opacity:1" />
+                                    </linearGradient>
+                                    <clipPath id="miniClip" transform="translate(0, 300) scale(1, -1)">
+                                        <circle cx="45" cy="255" r="43" />
+                                        <rect x="20" y="0" width="50" height="215" rx="25" />
+                                    </clipPath>
+                                </defs>
+                                <g>
+                                    <circle cx="45" cy="255" r="43" fill="rgba(200, 221, 181, 0.3)" stroke="#527548" stroke-width="4" />
+                                    <rect x="20" y="0" width="50" height="215" rx="25" fill="rgba(200, 221, 181, 0.3)" stroke="#527548" stroke-width="4" />
+                                </g>
+                                <g transform="translate(0, 300) scale(1, -1)">
+                                    <rect x="0" y="0" width="90" height="65.5" fill="url(#miniGradient)" clip-path="url(#miniClip)" />
+                                </g>
+                            </svg>
+                            <div class="thermometer-stats">
+                                <div class="current-amount">$3,275</div>
+                                <div class="goal-amount">Goal: $15,000</div>
+                                <div class="percentage">21.8%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
     <main class="container">
+
         <section class="upcoming-events">
             <h2 class="section-title">Upcoming Events</h2>
             <div id="events-container" class="events-grid"></div>
