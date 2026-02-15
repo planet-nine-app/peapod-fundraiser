@@ -67,6 +67,16 @@
       "benefit": "Portion of purchases go to Peapod"
     },
     {
+      "id": "book-swap",
+      "title": "Children's Book Swap - Mini Fundraiser",
+      "date": "2026-03-07",
+      "time": "10:00 AM - 12:00 PM",
+      "location": "Taborspace Preschool Room",
+      "description": "Bring your gently used children's books! Take home some fresh reads for your library. Pay what you want, suggested donation of $1 per book. All proceeds directly support The Pea Pod Family Resource Center.",
+      "type": "swap",
+      "imageUrl": "book-swap.jpg"
+    },
+    {
       "id": "main-auction",
       "title": "Talent Show",
       "subtitle": "Fundraiser & Auction",
@@ -103,21 +113,6 @@
     }
   ],
   "auctionItems": [
-    {
-      "id": "ice-dye-workshop",
-      "title": "Ice Dyeing Workshop for 6",
-      "donor": "Saki (Cas' and Zinnie's mom)",
-      "value": 690,
-      "description": "Learn the beautiful art of ice dyeing! Workshop for 6 people. Each person will dye a set of 4 napkins. Usually $115 per person.",
-      "category": "workshop"
-    },
-    {
-      "id": "guitar-lessons",
-      "title": "Adult Guitar Lessons (2 Sessions)",
-      "donor": "Saki's brother - Pink Martini touring guitarist",
-      "description": "Two guitar lessons with a world-class musician, formerly Pink Martini's touring guitarist, who has played with the Dallas orchestra. A wonderful, patient teacher for those looking to improve their guitar skills. Includes follow-up session.",
-      "category": "lessons"
-    },
     {
       "id": "bend-vacation",
       "title": "3 Night Stay in Bend, Oregon",
@@ -162,14 +157,6 @@
       "quantity": "Multiple available"
     },
     {
-      "id": "tarot-session",
-      "title": "1 Hour Tarot Session",
-      "donor": "Shanna",
-      "description": "A one-hour tarot reading session. This is Shanna's side/soul business.",
-      "duration": "1 hour",
-      "category": "spiritual"
-    },
-    {
       "id": "house-cleaning",
       "title": "2 Hour Standard House Cleaning",
       "donor": "Joy (Roan's Mum) - Joyful Home Cleaning",
@@ -177,32 +164,6 @@
       "description": "Professional 2-hour standard house cleaning session.",
       "duration": "2 hours",
       "category": "services"
-    },
-    {
-      "id": "custom-leather-belt",
-      "title": "Custom Leather Belt",
-      "donor": "Riv via Whitney (Willa's Mom)",
-      "description": "A custom-made leather belt, handcrafted with care.",
-      "category": "handmade"
-    },
-    {
-      "id": "music-lessons-colin",
-      "title": "Music Lessons (Guitar & Piano)",
-      "donor": "Colin (Zenta's parent)",
-      "description": "Guitar and piano lessons from an experienced teacher with 10+ years of teaching experience. More details to come based on auction timeline.",
-      "category": "lessons",
-      "experience": "10+ years teaching",
-      "status": "Details coming soon"
-    },
-    {
-      "id": "arch-cape-beach-house",
-      "title": "Beach House Stay in Arch Cape",
-      "donor": "Saki's neighbor",
-      "description": "A few nights at a beach house in Arch Cape. Flexible schedule as it's not normally rented out. Has donated to other non-profits.",
-      "location": "Arch Cape, Oregon",
-      "cleaningFee": 160,
-      "category": "vacation",
-      "note": "More flexible scheduling, $160 cleaning fee"
     },
     {
       "id": "literacy-lady-birthday",
@@ -222,14 +183,6 @@
       "websiteUrl": "https://www.flipmuseum.org",
       "category": "membership"
     },
-    {
-      "id": "mud-kitchen",
-      "title": "Custom Mud Kitchen",
-      "donor": "Lyndsay (Emme's mom), possibly with Saki",
-      "description": "A custom-built mud kitchen for outdoor play! Made with reclaimed wood (needs scrap wood donation).",
-      "category": "handmade",
-      "status": "Needs scrap wood donation"
-    }
   ],
   "suggestions": [
     {
