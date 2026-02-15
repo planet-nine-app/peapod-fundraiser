@@ -55,9 +55,16 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-// 404 handler
+// 404 handler - only return HTML for page requests
 app.use((req, res) => {
-  res.status(404).sendFile(path.join(__dirname, 'index.html'));
+  // For API/file requests, return proper 404
+  if (req.path.endsWith('.json') || req.path.endsWith('.js') ||
+      req.path.endsWith('.css') || req.path.match(/\.(jpg|jpeg|png|gif|svg|ico)$/)) {
+    res.status(404).json({ error: 'File not found' });
+  } else {
+    // For page requests, return index.html (SPA behavior)
+    res.status(404).sendFile(path.join(__dirname, 'index.html'));
+  }
 });
 
 // Error handler

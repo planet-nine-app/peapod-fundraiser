@@ -17,12 +17,40 @@ async function loadData() {
     // Fallback to local JSON
     if (!fundraisingData) {
         const response = await fetch('fundraising-data.json');
-        fundraisingData = await response.json();
+        if (!response.ok) {
+            throw new Error(`Failed to load fundraising data: ${response.status} ${response.statusText}`);
+        }
+        const text = await response.text();
+        try {
+            fundraisingData = JSON.parse(text);
+        } catch (e) {
+            console.error('Failed to parse JSON. Response was:', text.substring(0, 200));
+            throw new Error('Invalid JSON in fundraising-data.json');
+        }
     }
 
     renderEvents();
     renderProducts();
 }
+
+// Call loadData and handle errors
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        await loadData();
+    } catch (error) {
+        console.error('Error loading fundraising data:', error);
+        const eventsContainer = document.getElementById('events-container');
+        if (eventsContainer) {
+            eventsContainer.innerHTML = `
+                <div style="padding: 2rem; text-align: center; color: var(--color-secondary);">
+                    <h2>Oops! Unable to load event data</h2>
+                    <p>${error.message}</p>
+                    <p>Please contact the site administrator.</p>
+                </div>
+            `;
+        }
+    }
+});
 
 // Render events on the main page
 function renderEvents() {
@@ -89,5 +117,3 @@ function renderProducts() {
     }).join('');
 }
 
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', loadData);
